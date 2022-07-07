@@ -1,25 +1,20 @@
-// age
+// My age
 const myAge = 34;
 
-// creates variable for early years of dog
-let earlyYears = 2
+// Early years
+var earlyYears = 2;
 
-earlyYears *= 10.5;
+var earlyYears = (earlyYears * 10.5);
 
-// variable for later years of dog
-let laterYears = myAge - 2;
+// Later years
+var laterYears = (myAge - 2);
 
-// calculate later years in dog years
-laterYears *= 4
+// Dog years accounted for in later years
+var laterYears = (laterYears * 4);
 
-console.log(earlyYears);
-console.log(laterYears);
+// My name in lowercase
+var myName = 'Lyndsey'.toLowerCase();
+console.log(myName)
 
-// takes our early dog years and later years and gives us total age in dog years
-const myAgeInDogYears = earlyYears + laterYears;
-
-// returns my name in lower case.
-const myName = 'Lyndsey'.toLowerCase()
-console.log(myName);
-
-console.log('My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years');
+// My age in dog years
+console.log(`My name is ${myName}. I am ${myAge} years old in human years, which is ${laterYears} years old in dog years.`);
